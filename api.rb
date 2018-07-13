@@ -8,8 +8,8 @@ get '/show' do
   # Rubyのハッシュを作成、diaryという名前を付ける
   diary = {
       id: 1,
-      title: "今日の日記",
-      content: "きょうは雨でした。"
+      title: "7/6の天気",
+      content: "きょうも暑かった。"
   }
 
   # diaryをJSONテキストに変換して返す
